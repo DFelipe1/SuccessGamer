@@ -1,0 +1,46 @@
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.text {
+    width: 50%;
+}
+
+.text h1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.text h1 span {
+    color: var(--color-cian)
+}
+
+.effect {
+    width: 200px;
+    height: 30px;
+    background: linear-gradient(to right, var(--color-cian), var(--color-purple) 100%);
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 70% 0%);
+}
+
+
+.wrapperCards {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+
